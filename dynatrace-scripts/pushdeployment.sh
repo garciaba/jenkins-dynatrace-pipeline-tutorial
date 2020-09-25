@@ -3,8 +3,8 @@
 # Bash Script that will push a Custom Deployment event to Dynatrace via ${DT_URL}/api/v1/events
 # The script also assumes the ${DT_TOKEN} contains your API-Token!
 # Either set your Dynatrace Token and URL in this script or pass it as Env Variables to this Shell Script
-# DT_TOKEN=YOURAPITOKEN
-# DT_URL=https://YOURTENANT.live.dynatrace.com
+DT_TOKEN=rPAM9JG9RUaFuZx3iTw1_
+DT_URL=https://nvi54933.live.dynatrace.com/
 # When used with Jenkins we suggest to define DT_TOKEN and DT_URL as Global Environment Variables - they will then get passed to your shell script automatically
 
 # Usage:
